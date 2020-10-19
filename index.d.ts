@@ -99,6 +99,7 @@ declare interface NotificationOptions {
   category?: string;
   collapseId?: string;
   contentAvailable?: boolean;
+  mutableContent?: boolean;
   data?: { [key: string]: any; };
   expiration?: number;
   priority?: number;
